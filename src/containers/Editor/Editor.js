@@ -139,7 +139,7 @@ const Editor = () => {
   };
 
   // Calculate handle positions
-  const calcCPoints = (points, i) => {
+  function calcCPoints(points, i) {
     const t1 = 0.2;
     const t2 = 0.8;
     points[i].c[0].x = (1 - t1) * points[i - 1].x + t1 * points[i].x;
@@ -147,7 +147,7 @@ const Editor = () => {
     points[i].c[1].x = (1 - t2) * points[i - 1].x + t2 * points[i].x;
     points[i].c[1].y = (1 - t2) * points[i - 1].y + t2 * points[i].y;
     return points;
-  };
+  }
 
   return (
     <div
