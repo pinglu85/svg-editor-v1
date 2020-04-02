@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-import Anchor from '../../UI/Anchor/Anchor';
-import Handle from '../../UI/Handle/Handle';
+import Anchor from '../UI/Anchor/Anchor';
+import Handle from '../UI/Handle/Handle';
 
 const SVG = ({ d, pointsPos, clicked }) => {
   const handle = pointsPos.map((pos, index) => {

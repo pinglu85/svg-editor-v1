@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-import SVG from '../../components/SVG/SVG/SVG';
+import SVG from '../../components/SVG/SVG';
 import Interface from '../../components/UI/Interface/Interface';
 
 const Editor = () => {
